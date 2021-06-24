@@ -1,0 +1,33 @@
+.icon{
+    color: red;
+}
+.FormWithGoogle{
+ border: 1px solid red;
+ width:50%;
+ margin-left: auto;
+ margin-right: auto;
+ height: 150px;
+ margin-top:90px;
+ border-radius:20px ;
+ padding: 10px;
+ background-color:antiquewhite
+}
+.authLink{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    width:50%;
+    padding: 10px;
+    margin-top: 35px;
+    border-radius:20px;
+    background-color:wheat;
+    margin-left: auto;margin-right: auto;
+}
+@media only screen and (max-width: 900px) {
+    .FormWithGoogle{
+        width:90%;
+    }
+    .authLink{
+        width:80%;
+    }
+}    
