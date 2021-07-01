@@ -12,10 +12,10 @@ const Header = () => {
                 <p>E STORE</p>
             </div>
             <nav className="nav">
-                <Link to="/home">Home</Link>
-                <Link to="/order">Order</Link>
-                <Link to="/admin/Addproduct">Admin</Link>
-                <Link to="/deals">Deals</Link>
+                <Link to="/home"  style={{textDecoration:"none"}} >Home</Link>
+                <Link to="/order"  style={{textDecoration:"none"}} >Order</Link>
+                <Link to="/admin/Addproduct"  style={{textDecoration:"none"}} >Admin</Link>
+                <Link to="/deals"  style={{textDecoration:"none"}} >Deals</Link>
                 {loggedInUser.isSignedIn ? <button onClick={()=>setLoggedInUser({})}><Link to="/">{loggedInUser.email}</Link></button> : <button><Link to="/login">Log In</Link></button>}
 
             </nav>
